@@ -21,9 +21,9 @@ class DetallesRestaurantes: UIViewController {
     override func viewDidLoad() {
         self.title = restaurante!.nombre!
         
-        lblDireccion.text = "\(restaurante!.direccion)"
-        lblTelefono.text = "\(restaurante!.telefono)"
-        lblDescripcion.text = "\(restaurante!.descripcion)"
+        lblDireccion.text = restaurante!.direccion
+        lblTelefono.text = restaurante!.telefono
+        lblDescripcion.text = restaurante!.descripcion
     }
     
     
